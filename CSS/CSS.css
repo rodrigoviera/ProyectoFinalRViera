@@ -1,0 +1,114 @@
+.cartaTitulo {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.body {
+  height: 100%;
+  width: 99%;
+  background: linear-gradient(#B9EDDD, #87CBB9, #569DAA, #577D86);
+}
+
+.listado {
+  margin-left: 20px;
+}
+
+.tabla {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.formulario {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.formulario .formOne {
+  grid-column: 1/3;
+  grid-row: 1;
+  height: fit-content;
+  margin-top: 40px;
+}
+.formulario .formTwo {
+  align-content: center;
+  grid-column: 1/3;
+  grid-row: 2;
+  height: fit-content;
+  margin-top: -90px;
+}
+.formulario .formThree {
+  grid-column: 1/3;
+  grid-row: 3;
+  height: fit-content;
+  margin-top: -100px;
+}
+.formulario .formFive {
+  grid-column: 2/3;
+  grid-row: 1;
+  width: fit-content;
+  height: fit-content;
+}
+
+.textoPoliticas {
+  opacity: 50%;
+}
+.textoPoliticas p {
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.textoPoliticas h1 {
+  margin-top: 70px;
+  margin-left: 39%;
+}
+
+.formulario {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.formularioContacto {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Estilos para la vista de 520px */
+@media (max-width: 520px) {
+  .formulario {
+    grid-template-columns: 1fr;
+  }
+}
+.footerGeneral {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.divH3 {
+  margin-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.parrafoFooter {
+  margin: 0 10px;
+}
+
+/* Estilos para la vista de 520px */
+@media (max-width: 520px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .parrafoFooter {
+    margin-bottom: 10px;
+  }
+}
+
+/*# sourceMappingURL=CSS.css.map */
